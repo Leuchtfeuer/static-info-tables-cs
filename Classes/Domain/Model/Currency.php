@@ -26,7 +26,6 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
-namespace SJBR\StaticInfoTables\Domain\Model;
 
 /**
  * The Currency model
