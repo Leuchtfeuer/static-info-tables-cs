@@ -1,9 +1,11 @@
 <?php
+namespace SJBR\StaticInfoTables\Domain\Model;
 /***************************************************************
  *  Copyright notice
  *
  *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
  *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2017 Florian Wessels <typo3-ext@bitmotion.de>
  *
  *  All rights reserved
  *
@@ -23,7 +25,6 @@
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
-namespace SJBR\StaticInfoTables\Domain\Model;
 
 /**
  * The Territory model
@@ -34,15 +35,15 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Territory extends AbstractEntity
 {
     /**
-     * Csech name of the territory
+     * Czech name of the territory
      * @var string
      */
     protected $nameCs = '';
 
     /**
-     * Sets the Csech name of the territory
+     * Sets the Czech name of the territory
      *
-     * @param string $namePl
+     * @param string $nameCs
      *
      * @return void
      */
@@ -52,7 +53,7 @@ class Territory extends AbstractEntity
     }
 
     /**
-     * Returns the Csech name of the territory
+     * Returns the Czech name of the territory
      *
      * @return string
      */

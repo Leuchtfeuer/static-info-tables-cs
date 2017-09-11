@@ -1,10 +1,11 @@
 <?php
-
+namespace SJBR\StaticInfoTables\Domain\Model;
 /***************************************************************
  *  Copyright notice
  *
  *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
  *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2017 Florian Wessels <typo3-ext@bitmotion.de>
  *
  *  All rights reserved
  *
@@ -35,13 +36,13 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Language extends AbstractEntity
 {
     /**
-     * Csech name of the language
+     * Czech name of the language
      * @var string
      */
     protected $nameCs = '';
 
     /**
-     * Sets the Csech name of the language
+     * Sets the Czech name of the language
      *
      * @param string $nameCs
      *
@@ -53,7 +54,7 @@ class Language extends AbstractEntity
     }
 
     /**
-     * Gets the Csech name of the language
+     * Gets the Czech name of the language
      *
      * @return string
      */

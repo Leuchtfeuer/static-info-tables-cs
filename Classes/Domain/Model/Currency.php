@@ -1,9 +1,12 @@
 <?php
+namespace SJBR\StaticInfoTables\Domain\Model;
+
 /***************************************************************
  *  Copyright notice
  *
  *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
  *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2017 Florian Wessels <typo3-ext@bitmotion.de>
  *
  *  All rights reserved
  *
@@ -34,19 +37,19 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Currency extends AbstractEntity
 {
     /**
-     * Csech name of the currency
+     * Czech name of the currency
      * @var string
      */
     protected $nameCs = '';
 
     /**
-     * Csech name of the currency subdivision unit
+     * Czech name of the currency subdivision unit
      * @var string
      */
     protected $subdivisionNameCs = '';
 
     /**
-     * Sets the Csech name of the currency
+     * Sets the Czech name of the currency
      *
      * @param string $nameCs
      *
@@ -58,7 +61,7 @@ class Currency extends AbstractEntity
     }
 
     /**
-     * Gets the Csech name of the currency
+     * Gets the Czech name of the currency
      *
      * @return string
      */
@@ -68,7 +71,7 @@ class Currency extends AbstractEntity
     }
 
     /**
-     * Sets the Csech name of the currency subdivision
+     * Sets the Czech name of the currency subdivision
      *
      * @param string $subdivisionNameCs
      *
@@ -80,7 +83,7 @@ class Currency extends AbstractEntity
     }
 
     /**
-     * Gets the Csech name of the currency subdivision
+     * Gets the Czech name of the currency subdivision
      *
      * @return string
      */

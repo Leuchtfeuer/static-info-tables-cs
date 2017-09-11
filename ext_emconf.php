@@ -12,21 +12,22 @@
 
 $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Static Info Tables (cs)',
-	'description' => '(cs) language pack for the Static Info Tables providing localized names for countries.',
+	'description' => 'Czech (cs) language pack for the Static Info Tables providing localized names for countries.',
 	'category' => 'misc',
-	'version' => '6.2.0',
+	'version' => '6.4.0',
 	'state' => 'stable',
 	'uploadfolder' => false,
 	'createDirs' => '',
 	'clearcacheonload' => false,
 	'author' => 'Florian Wessels',
+	'author_email' => 'typo3-ext@bitmotion.de',
+	'author_company' => 'Bitmotion GmbH',
 	'constraints' =>
 	array (
 		'depends' => 
 		array (
-			'static_info_tables' => '',
-			'php' => '5.3.0-5.6.99',
-			'typo3' => '6.2.0-6.2.99',
+			'typo3' => '6.2.0-8.7.99',
+            'static_info_tables' => '6.3.1-6.99.99',
 		),
 		'conflicts' => 
 		array (
