@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 namespace Bitmotion\StaticInfoTablesCs\Provider;
 
-use Mselbach\StaticInfoTablesUa\Extension;
+use Bitmotion\StaticInfoTablesCs\Extension;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 class TcaProvider
