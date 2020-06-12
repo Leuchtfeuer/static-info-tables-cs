@@ -1,17 +1,17 @@
 <?php
-declare(strict_types = 1);
-namespace Bitmotion\StaticInfoTablesCs;
 
-/***
- *
- * This file is part of the "Static Info Tables (CS)" Extension for TYPO3 CMS.
+declare(strict_types=1);
+
+/*
+ * This file is part of the "Static Info Tables (CS)" extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  *
- *  (c) 2018 Florian Wessels <f.wessels@bitmotion.de>, Bitmotion GmbH
- *
- ***/
+ * Florian Wessels <f.wessels@Leuchtfeuer.com>, Leuchtfeuer Digital Marketing
+ */
+
+namespace Bitmotion\StaticInfoTablesCs;
 
 use SJBR\StaticInfoTables\Cache\ClassCacheManager;
 use SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility;
