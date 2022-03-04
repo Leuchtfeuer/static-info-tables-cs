@@ -8,8 +8,7 @@
     {
       "name": "Florian Wessels",
       "role": "Developer",
-      "email": "f.wessels@Leuchtfeuer.com",
-      "homepage": "https://www.Leuchtfeuer.com"
+      "email": "flo.wessels@gmail.com"
     },
     {
       "name": "Max Rösch",
@@ -28,8 +27,8 @@
     "typo3-ter/static-info-tables-cs": "self.version"
   },
   "require": {
-    "typo3/cms-core": "^9.5.17 || ^10.4.2",
-    "typo3/cms-extbase": "^9.5.17 || ^10.4.2",
+    "typo3/cms-core": "^9.5 || ^10.4",
+    "typo3/cms-extbase": "^9.5 || ^10.4",
     "sjbr/static-info-tables": "^6.9"
   },
   "autoload": {
