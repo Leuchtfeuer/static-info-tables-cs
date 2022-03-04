@@ -1,48 +1,48 @@
 config.tx_extbase {
-    persistence {
-        classes {
-            SJBR\StaticInfoTables\Domain\Model\Country {
-                mapping {
-                    columns {
-                        cn_short_cs.mapOnProperty = shortNameCs
-                        cn_official_name_cs.mapOnProperty = officialNameCs
-                        cn_capital_cs.mapOnProperty = capitalCs
-                    }
-                }
-            }
-
-            SJBR\StaticInfoTables\Domain\Model\CountryZone {
-                mapping {
-                    columns {
-                        zn_name_cs.mapOnProperty = nameCs
-                    }
-                }
-            }
-
-            SJBR\StaticInfoTables\Domain\Model\Currency {
-                mapping {
-                    columns {
-                        cu_name_cs.mapOnProperty = nameCs
-                        cu_sub_name_cs.mapOnProperty = subdivisionNameCs
-                    }
-                }
-            }
-
-            SJBR\StaticInfoTables\Domain\Model\Language {
-                mapping {
-                    columns {
-                        lg_name_cs.mapOnProperty = nameCs
-                    }
-                }
-            }
-
-            SJBR\StaticInfoTables\Domain\Model\Territory {
-                mapping {
-                    columns {
-                        tr_name_cs.mapOnProperty = nameCs
-                    }
-                }
-            }
+  persistence {
+    classes {
+      SJBR\StaticInfoTables\Domain\Model\Country {
+        mapping {
+          columns {
+            cn_short_cs.mapOnProperty = shortNameCs
+            cn_official_name_cs.mapOnProperty = officialNameCs
+            cn_capital_cs.mapOnProperty = capitalCs
+          }
         }
+      }
+
+      SJBR\StaticInfoTables\Domain\Model\CountryZone {
+        mapping {
+          columns {
+            zn_name_cs.mapOnProperty = nameCs
+          }
+        }
+      }
+
+      SJBR\StaticInfoTables\Domain\Model\Currency {
+        mapping {
+          columns {
+            cu_name_cs.mapOnProperty = nameCs
+            cu_sub_name_cs.mapOnProperty = subdivisionNameCs
+          }
+        }
+      }
+
+      SJBR\StaticInfoTables\Domain\Model\Language {
+        mapping {
+          columns {
+            lg_name_cs.mapOnProperty = nameCs
+          }
+        }
+      }
+
+      SJBR\StaticInfoTables\Domain\Model\Territory {
+        mapping {
+          columns {
+            tr_name_cs.mapOnProperty = nameCs
+          }
+        }
+      }
     }
+  }
 }
