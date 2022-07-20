@@ -13,7 +13,7 @@
 		{
 			"name": "Max Rösch",
 			"role": "Developer",
-			"email": "m.roesch@Leuchtfeuer.com",
+			"email": "typo3@elbebass.com",
 			"homepage": "https://www.Leuchtfeuer.com"
 		}
 	],
@@ -27,9 +27,9 @@
 		"typo3-ter/static-info-tables-cs": "self.version"
 	},
 	"require": {
-		"typo3/cms-core": "^9.5 || ^10.4",
-		"typo3/cms-extbase": "^9.5 || ^10.4",
-		"sjbr/static-info-tables": "^6.9"
+		"typo3/cms-core": "^10.4 || ^11.5",
+		"typo3/cms-extbase": "^10.4 || ^11.5",
+		"sjbr/static-info-tables": "^6.7 || ^11.5"
 	},
 	"autoload": {
 		"psr-4": {
