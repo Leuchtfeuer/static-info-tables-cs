@@ -1,5 +1,5 @@
 CREATE TABLE static_countries (
-  cn_short_cs varchar(50) DEFAULT '' NOT NULL
+  cn_short_cs varchar(60) DEFAULT '' NOT NULL
 );
 
 CREATE TABLE static_currencies (
