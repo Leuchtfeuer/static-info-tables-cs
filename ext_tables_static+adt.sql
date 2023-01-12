@@ -250,3 +250,4 @@ UPDATE static_countries SET cn_short_cs='Bonaire, Svatý Eustach a Saba' WHERE c
 UPDATE static_countries SET cn_short_cs='Curaçao' WHERE cn_iso_2='CW';
 UPDATE static_countries SET cn_short_cs='Svatý Martin' WHERE cn_iso_2='SX';
 UPDATE static_countries SET cn_short_cs='Jižní Súdán' WHERE cn_iso_2='SS';
+UPDATE static_countries SET cn_short_cs='Kosovo' WHERE cn_iso_2='XK';
