@@ -18,6 +18,12 @@ return [
             'shortNameCs' => [
                 'fieldName' => 'cn_short_cs',
             ],
+            'officialNameCs' => [
+                'fieldName' => 'cn_official_name_cs',
+            ],
+            'capitalCs' => [
+                'fieldName' => 'cn_capital_cs',
+            ],
         ],
     ],
     \SJBR\StaticInfoTables\Domain\Model\CountryZone::class => [
