@@ -12,9 +12,9 @@ $EM_CONF['static_info_tables_cs'] = [
     'author_company' => 'Leuchtfeuer Digital Marketing',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99',
-            'php' => '7.2.0-8.1.99',
-            'static_info_tables' => '6.7.3-12.4.99',
+            'typo3' => '11.5.0-12.4.99',
+            'php' => '7.4.1-8.1.99',
+            'static_info_tables' => '11.5.0-12.4.99',
         ],
         'conflicts' => [],
         'suggests' => [],
